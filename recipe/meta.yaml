@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.7" %}
 
 package:
   name: pywebp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/webp/webp-{{ version }}.tar.gz
-  sha256: 159a81fdd2c245beaeec2fe5969382e8b0a1535ad450f45762a1f3814f8df35c
+  sha256: 85c9795b82f67fe2a9316a391e16e5dee42a3b7a01eeb698ee5179544c73d6bf
 
 build:
   number: 0
