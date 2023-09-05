@@ -21,6 +21,7 @@ requirements:
     - cffi
     - importlib-resources
     - libwebp
+    - toml
   run:
     - python
     - pillow

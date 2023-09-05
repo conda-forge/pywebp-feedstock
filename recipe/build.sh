@@ -1,5 +1,4 @@
 set -ex
-rm -f pyproject.toml
 
 # Remove conan from setup_requires
 python ${RECIPE_DIR}/rewrite_config.py
