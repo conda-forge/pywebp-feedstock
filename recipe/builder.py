@@ -1,4 +1,4 @@
-# A simplified builder.py because conda(-forgE)
+# A simplified builder.py because conda(-forge)
 # manages packages and build environments instead of
 # conan
 import platform
