@@ -14,7 +14,7 @@ if platform.system() == 'Windows':
 # Specify C sources to be build by CFFI
 ffibuilder = FFI()
 ffibuilder.set_source(
-    '_webp',
+    'webp._webp',
     read_text(webp_build, 'source.c'),
     libraries=libraries,
 )
