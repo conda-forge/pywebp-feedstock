@@ -9,12 +9,12 @@ source:
   sha256: 9265565839ac938327705c5fbfa3d8ceeeb9b5a2c1c3367231caa0bad29464c7
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ stdlib("c") }}
+    - {{ stdlib('c') }}
   host:
     - python
     - pip
