@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/w/webp/webp-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/w/webp/webp-{{ version }}.tar.gz
   sha256: 9265565839ac938327705c5fbfa3d8ceeeb9b5a2c1c3367231caa0bad29464c7
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
